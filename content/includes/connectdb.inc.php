@@ -1,8 +1,8 @@
 <?php
  $host     = 'localhost';
- $dbname   = 'cms';
- $username = 'root';
- $password = 'root';
+ $dbname   = '';
+ $username = '';
+ $password = '';
 
  $connectStr = 'mysql:host=' . $host . ';dbname=' . $dbname . ';charset=utf8';
  $db         = new PDO($connectStr, $username, $password);
